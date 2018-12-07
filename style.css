@@ -1,0 +1,29 @@
+.topnav {
+    background-color: #090909;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #605E5E;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #605E5E;
+    color: white;
+}
+
+h1 {
+    font-family: 'Audiowide';
+    font-size: 30px;
+}
