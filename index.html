@@ -5,23 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
     <title>Tutorial Website</title>
 </head>
 <body>
-<h1>JavaScript Tutorial</h1>
 
-    <nav class="topnav">
-        <a class="active" href="#Home">Home</a>
-        <a href="#Functions">Functions</a>
-        <a href="#Objects">Objects</a>
-        <a href="#Arrays">Arrays</a>
-        <a href="#ForLoops">For Loops</a>
-        <a href="#Conditionals">Conditionals</a>
-    </nav>
+<header>  
+<h1 class="animated rubberBand">JavaScript Tutorial</h1>
 
-    <p></p>
+<nav class="topnav">
+    <a class="active" href="#Home">Home</a>
+    <a href="#Functions">Functions</a>
+    <a href="#Objects">Objects</a>
+    <a href="#Arrays">Arrays</a>
+    <a href="#ForLoops">For Loops</a>
+    <a href="#Conditionals">Conditionals</a>
+</nav>
+</header>
+
+<!--SIDEBAR-->
+
+<section id="sidebar">
+    <h2>JavaScript Sites</h2>
+    <a href="https://www.w3schools.com/js/default.asp"target="_blank">W3Schools</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"target="_blank">Mozilla</a>
+    <a href="https://www.pluralsight.com/paths/javascript"target="_blank">Pluralsight</a>
+
+</section>
+    
+<!--FUNCTIONS-->
+<article>
+<h2><a name="Functions">Functions</a></h2>
+<p>Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.</p>
+
+<pre><code>function square(number) {
+    return number * number;
+}</code></pre>
+
+<p>The function square takes one parameter, called number. The function consists of one statement that says to return the parameter of the function (that is, number) multiplied by itself. The statement return specifies the value returned by the function.</p>
+</article>
+    
+<!--OBJECTS-->
+
+<article>
+<h2><a name="Objects">Objects</a></h2>
+<p>Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.</p>
+
+<pre><code>
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969
+</code></pre>
+
+<p>A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation.</p>
+</article>
+
+<!--ARRAYS-->
+
+<article>
+<h2><a name="Arrays">Arrays</a></h2>
+<p>In JavaScript, array is a single variable that is used to store different elements. It is often used when we want to store list of elements and access them by a single variable. Unlike most languages where array is a reference to the multiple variable, in JavaScript array is a single variable that stores multiple elements.</p>
+
+<pre><code>
+var house = [];
+var house = new Array();
+
+var house =['house1', 'house2', 'house3', 'house4'];
+
+house[0] = 'house1';
+house[1] = 'house2';
+house[2] = 'house3';
+house[3] = 'house3';
+</code></pre>
+</article>
+    
+<!--FOR LOOP-->
+
+<article>
+<h2><a name="ForLoops">For Loops</a></h2>
+<p>A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.</p>
+
+<pre><code>for ([initialExpression]; [condition];
+     [incrementExpression])
+statement</code></pre>
+</article>
+
+<!--CONDITIONALS-->
+
+<article>
+<h2><a name="Conditionals">Conditionals</a></h2>
+<p>Conditionals control behavior in JavaScript and determine whether or not pieces of code can run.
+The most common type of conditional is the if statement, which only runs if the condition enclosed in parentheses ().</p>
+
+<pre><code>
+    if (10 > 5) {
+var outcome = "if block";
+}
+  ​
+outcome;</code></pre>
+</article>
 
 
-    <footer>Made by Ben Durham </footer>
+
+
+<footer>Made by Ben Durham </footer>
 </body>
 </html>
