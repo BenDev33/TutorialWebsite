@@ -31,6 +31,7 @@ h1 {
     font-family: 'Poller One';
     color: #2c49ea;
     font-size: 50px;
+    text-shadow: 2px 2px 8px #666161;
 }
 
 h2 {
@@ -39,20 +40,60 @@ h2 {
     
 }
 p {
-    font-family: 'Courgette', cursive;
+    font-family: 'Staatliches', cursive;
     font-size: 20px;
 }
 
+.functions {
+    background-image: url("img/Functions.jpg");
+    height: 100px;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.objects {
+    background-image: url("img/Objects.jpg");
+    height: 120px;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.arrays {
+    background-image: url("img/Arrays.jpg");
+    height: 80px;
+    width: 50vw;
+    border-radius: 10px;  
+}
+
+.forLoop {
+    background-image: url("img/ForLoop.jpg");
+    height: 110px;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.conditionals {
+    background-image: url("img/Conditionals.jpg");
+    height: 180px;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+
 #sidebar {
     float: right;
-    display: block;
-    margin-top: 80vh;
-    padding: 10px 10px;
-    background-color: #605e5e;
-    border: solid 2px #605e5e;
+    margin-top: 10px;
+    padding-left: 5px;
+    height: 180vh;
+    border: solid 4px #605e5e;
+    border-radius: 5px;
+    border-top: 0 transparent;
+    border-right: 0 transparent;
+    border-bottom: 0 transparent;
+
 }
 #sidebar a:hover {
-    color: lightgray;
+    color: rgb(36, 12, 247);
     text-decoration: none;
     font-weight: none;
 }
@@ -64,13 +105,7 @@ p {
     padding-bottom: 20px;
 }
 
-
-pre {
-    border: solid 2px #000;
-    color: lightgray;
-    background-color: #000;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    margin-right: 60vw;
-    border-radius: 12px;
+footer {
+    font-family: 'Staatliches', cursive;
+    margin-top: 10px;
 }
